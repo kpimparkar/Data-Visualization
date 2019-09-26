@@ -1,0 +1,218 @@
+** <center>Project proposal</center> ** 
+# <center>GLOBAL WATER SCARCITY & DROUGHT RISK</center>
+
+Ketan Pimparkar   
+FA'19 Data Visualization :: IU MS Data Science  
+
+## Abstract 
+> Water scarcity is the lack of fresh water resources to meet water demand. 
+It affects every continent and was listed in 2019 by the World Economic Forum as
+one of the largest global risks in terms of potential impact over the next decade.
+Two-thirds of the global population (4 billion people) live under conditions of 
+severe water scarcity at least 1 month of the year. Half a billion people in 
+the world face severe water scarcity all year round. Half of the world’s 
+largest cities experience water scarcity.  
+[Water scarcity Wiki](https://en.wikipedia.org/wiki/Water_scarcity)
+ 
+Water is essential for all living beings. Human race relies on water for 
+drinking needs, food, medicine, electricity, manufacturing among other needs. 
+Access to clean water is a basic need for humans. Water sources and reservoirs 
+have played vital role in the development of human cultures.  
+
+Even though water plays such an important role in the existence and development 
+of human beings, we are currently facing grave problems of water scarcity and 
+drought risks. Communicating this  risk to wider audience is now of more 
+importance than even before. 
+
+Science direct explains the problem of water scarcity by taking into 
+consideration the impact of human water consumption, natural factors and 
+current context of this problem:
+
+> Water scarcity arises in situations where there is insufficient water to 
+simultaneously support both human and ecosystem water needs (White, 2014). Most 
+often this arises as a result of a basic lack of water (i.e., physical 
+water scarcity), but it may also result from a lack of suitable infrastructure 
+to provide access to what might otherwise be considered ample available water 
+resources, which is referred to as economic water scarcity. Physical water 
+scarcity may occur as a result of both natural phenomena (e.g., aridity, drought) 
+as well as from human influences (e.g., desertification, water storage; Pereira 
+et al., 2009; White, 2014), although these influences are often coupled. 
+For example, the process of desertification often commences as a result of water
+overuse during periods of temporary drought; droughts are more common in arid 
+regions (McMahon et al., 1992).  
+> [Water scarcity - Science Direct](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/water-scarcity)
+ 
+This visualization project aims to convey these risks to the audience to create 
+awareness about water shortage and the importance of water conservation. The 
+project will visualize the water scarcity data from various sources to 
+demonstrate the adverse conditions of water shortage and drought. 
+ 
+## Motivation
+Around 71% of Earth's surface is covered by water and there are huge water 
+reservoirs such as rivers, lakes, glaciers around us. But still we are facing 
+water scarcity. Countries such as Australia, Brazil, India, China, Syria have 
+faced very severe impact of drought.[[2]](https://www.wri.org/blog/2015/06/global-tour-7-recent-droughts)
+ 
+
+<img align="center" src="https://wriorg.s3.amazonaws.com/s3fs-public/uploads/India_Water_tool_blog_graphics-01.png" alt="Drought condition in India" width="700" height="600"/>  
+
+   
+> A mere 0.014% of all water on Earth is both fresh and easily accessible. Of the remaining water, 97% is saline and 
+a little less than 3% is hard to access. Technically, there is a sufficient amount of freshwater on a global scale. 
+However, due to unequal distribution (exacerbated by climate change) resulting in some very wet and some very dry 
+geographic locations, plus a sharp rise in global freshwater demand in recent decades driven by industry, humanity is facing a water crisis. Demand is expected to outstrip supply by 40% in 2030, if current trends continue.   
+[Water scarcity Wiki](https://en.wikipedia.org/wiki/Water_scarcity)
+
+Water scarcity and drought have huge ecological and sociological impact. 
+These conditions affect various aspects of human life, such as[[3]](http://www.eschooltoday.com/global-water-scarcity/effects-of-water-shortage.html):  
+
+**Health**  
+Water scarcity forces the community to use less clean or even contaminated 
+water for drinking, cooking. This has direct impact on overall health of 
+individuals of the society. Water is important for cleaning process as well. 
+Shortage of water results in sanitation and cleanliness related problems.    
+
+**Food production**  
+Water is used in irrigation of crops. Additionally, water is used in processing 
+and production of packaged food. Water scarcity has direct impact on these 
+processes resulting in lower food production.  
+
+**Poverty**  
+In societies where agriculture is the main industry providing jobs and income
+ to individuals, the impact of water shortage is very threatening. Community 
+ spends most of the time in search of clean water than on betterment of the 
+ society.    
+
+One of the factor that motivated me to perform analysis on the topic of water
+ scarcity and droughts is the socioeconomic impact this problem has on 
+ agriculture based countries like India. Agriculture sector is the only 
+ livelihood to the two-third of India's population which gives employment to 
+ the  57% of work force and is a raw material source to large number of 
+ industries. Impact of droughts on the lives of Indian farmers is so deep 
+ that it has resulted in suicides of farmers at an epidemic proportions.
+ Suicides among farmer community is a major concern in various state of India. 
+ Approximately 3.4 million cotton farmers occupy a small region in India 
+ call "Vidarbha" and 95% of them struggle with massive debt [[4]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738339/). Incidence
+  of farmers ending their lives in this region had hit epidemic like proportions recently.
+> In a country of 70 million farmers, it is 10 in every 100,000 farmers
+committing suicide. This is higher than the total national suicide rate. The 
+number of farmers committing suicide in India is more than twice of the total
+ number of suicides being committed in the top 100 countries on the suicide 
+ list! This indeed is worrying factor. The Government's measures including 
+ waiving off loans, construction of dams, and other assisting measures have 
+ not produced positive results so far.  
+> [Suicides among farmers in India](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738339/)
+
+This is visualization project is an effort to emphasize on the *need for 
+action*. Every important decision made by us depends on relevant data. In 
+order to convey the wide spread nature of the water scarcity and drought 
+risks to global leaders, it is necessary that this data is represented in an
+ objective manner. In order to represent the data in an objective manner, 
+ this project relies on the Aqueduct™ water risk framework provided by World 
+ Resources Institute [[1]](https://www.wri.org/aqueduct).
+
+> WRI’s Aqueduct™ information platform compiles advances in hydrological modeling,   
+> remotely sensed data, and published data sets into a freely accessible online platform. 
+
+Aqueduct water risk framework transforms various data sources into water risk
+ indicators. This project focuses on utilizing these indicators to convey the
+vast spread of water scarcity. WRI provides an online tool which explores 
+this data and visualizes it in a geospatial manner.
+
+>[Aqueduct™ Water Risk Atlas](https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=30.00&lng=-80.00&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=3)    
+
+
+### Related work
+Various resources are available where the current state of water scarcity is 
+visualized in very effective manners. These plots do commendable jobs in 
+conveying the risks we are facing today due to water shortage. Couple of such
+visualizations are mentioned as below:
+
+#### U.S. Drought Monitor
+This geospatial visualization of current drought condition in the U.S. 
+clearly convey following data:
+- which states are affected by drought situation
+- what is the severity of drought in these states
+- if this is a log term problem or a short term problem faced by the state.  
+Colors used in this visualization are easily distinguishable. They portray 
+affected areas clearly. Mention of all government agencies involved in data 
+collection and the author gives credibility to the data represented in this 
+plot. This visualization has included Alaska, Hawaii, Puerto Rico as well 
+indicating that those islands are also affected by the drought conditions. 
+Time stamp of the visualization helps to convey how recent the data is. And 
+the visualization has also provided viewers a way to access additional 
+information via a website.  
+
+<p align="center">
+<img align="center" src="https://droughtmonitor.unl.edu/data/jpg/20190917/20190917_usdm.jpg" alt="U.S. Drought monitor" width="800" height="600"/>
+</p>
+
+#### Global view of duration of water scarcity
+This another visualization overlays the information of water scarcity on a 
+world map. It shows the number of months for which a country/regions 
+experiences water scarcity. The data from the year 2916 is used for this 
+visualization. Main medium of communication in this visualization is color. There is a scale
+which indicates range of drought affected months represented by correponding
+color. It successfully shows us which continents are affected the most by 
+water scarcity.  
+This visualization gives overall idea of spread of water scarcity, but it 
+fails to provide us numbers behing the visual. It would benefit a lot by 
+including some interactivity. Due to small scale of the graph, we don't get 
+any idea about the condition of drought in a partucular country.
+ 
+![Global distribution of water scarcity](https://ars.els-cdn.com/content/image/3-s2.0-B9780128117132000066-f06-01-9780128117132.jpg?_)
+
+<center>Chart 1: Map showing the global distribution of regions</br>   
+affected by water scarcity. Reprinted from Mekonnen, M.M., Hoekstra,</br>   
+A.Y., 2016. Four billion people facing severe water scarcity. Sci. Adv. 2. </center>
+
+  
+## Objectives
+Main objective of this project is to demonstrate how wide spread the problem 
+of water scarcity and drought is. Instead of relying on just colors and 
+geospatial visualizations, the project aims at showcasing objectified 
+attributes to convey the impact of water scarcity. This approach will help 
+perform a comparative analysis of the problem faced by the world. 
+
+1) bar charts to compare drought/scaricity
+2) time trend
+3) sample area - geospatial
+
+
+
+
+## Data sets and visualization methods
+
+
+## Next Steps
+* Combine the available data with water footprints and create a mechanism that 
+would highlight factors responsible for creation of economic water scarcity.
+
+* Suggest achievable corrective measures to control adverse effects of water 
+scarcity.
+
+
+## Learning objectives
+- [ ] Pickle files
+- [ ] Web page creation
+- [ ] Host the website on AWS
+- [ ] Host website on github
+- [X] Markdown in PyCharm
+- [ ] PyLint
+- [ ] Geographical visualizations
+- [ ] Interactive visualizations
+- [ ] bibtex / bibliography    
+
+## References
+[1] World Resources Institute  '<https://www.wri.org/aqueduct>'  
+[2] Recent droughts ERI '<https://www.wri
+.org/blog/2015/06/global-tour-7-recent-droughts>'  
+* Aqueduct 3.0: global water risk indicators  
+'<https://wriorg.s3.amazonaws.com/s3fs-public/aqueduct-30-updated-decision-relevant-global-water-risk-indicators_0.pdf'>
+* Aqueduct 3.0 Water Risk Atlas Metadata  
+'<https://github.com/wri/aqueduct30_data_download/blob/master/metadata.md>'
+[3] Effects of water shortage
+'<http://www.eschooltoday.com/global-water-scarcity/effects-of-water-shortage
+.html>'
+[4] Suicides among farmers in India '<https://www.ncbi.nlm.nih
+.gov/pmc/articles/PMC2738339/>'
